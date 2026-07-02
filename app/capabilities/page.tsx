@@ -59,7 +59,7 @@ export default function CapabilitiesPage() {
 
         <div className="min-h-[520px] overflow-hidden border-l border-zinc-300">
           <Image
-            src="/images/capabilities-milling-image1.webp"
+            src="/images/capabilities-milling-image1.png"
             alt="Precision manufacturing"
             width={1200}
             height={800}
