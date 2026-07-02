@@ -222,7 +222,7 @@ export default function ManufacturingWebsite() {
           <div className="grid lg:grid-cols-2">
             <div className="min-h-[700px] overflow-hidden">
               <img
-                src="/images/capabilities-milling-image1.webp"
+                src="/images/capabilities-milling-image1.png"
                 alt="Precision machining"
                 className="h-full w-full object-cover"
               />

@@ -57,9 +57,9 @@ export default function CapabilitiesPage() {
           </p>
         </div>
 
-        <div className="min-h-[520px] overflow-hidden border-l border-zinc-300">
+        <div className="h-[700px] overflow-hidden border-l border-zinc-300">
           <Image
-            src="/images/capabilities-milling-image1.png"
+            src="/images/Slugs.JPEG"
             alt="Precision manufacturing"
             width={1200}
             height={800}
