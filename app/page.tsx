@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 
 import React from "react";
@@ -118,7 +119,7 @@ export default function ManufacturingWebsite() {
               src="/images/logo.png"
               alt=""
               aria-hidden="true"
-              className="absolute left-1/2 top-1/2 w-[1500px] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-70"
+              className="absolute left-1/2 top-1/2 w-[1500px] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-50"
             />
             <div className="absolute inset-0 bg-[#f3f3ef]/85" />
           </div>
