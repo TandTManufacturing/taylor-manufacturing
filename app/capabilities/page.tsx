@@ -59,7 +59,7 @@ export default function CapabilitiesPage() {
 
         <div className="h-[700px] overflow-hidden border-l border-zinc-300">
           <Image
-            src="public/images/Slugs.JPEG"
+            src="/images/Slugs.JPEG"
             alt="Precision manufacturing"
             width={1200}
             height={800}
