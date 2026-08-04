@@ -104,7 +104,7 @@ export default function ManufacturingWebsite() {
           </nav>
 
           <a
-            href="mailto:quotes@taylormanufacturingus.com"
+            href="mailto:Engineering@TaylorManufacturingUS.com"
             className="inline-flex h-10 items-center justify-center rounded-2xl bg-white px-5 text-sm font-semibold text-zinc-950 transition hover:bg-zinc-200"
           >
             Email RFQ
@@ -149,7 +149,7 @@ export default function ManufacturingWebsite() {
 
               <div className="mt-9 flex flex-col gap-4 sm:flex-row">
                 <a
-                  href="mailto:quotes@taylormanufacturingus.com"
+                  href="mailto:Engineering@TaylorManufacturingUS.com"
                   className="inline-flex h-12 items-center justify-center rounded-2xl bg-white px-7 text-base font-semibold text-zinc-950 transition hover:bg-zinc-200"
                 >
                   Start an RFQ <ArrowRight className="ml-2 h-4 w-4" />
@@ -163,7 +163,7 @@ export default function ManufacturingWebsite() {
                 </Link>
               </div>
 
-              <div className="mt-10 grid gap-4 text-sm text-zinc-700 sm:grid-cols-3">
+              <div className="mt-10 grid gap-4 text-sm text-zinc-700 sm:grid-cols-4">
                 <div className="rounded-2xl border border-zinc-300 bg-white/70 p-4">
                   <p className="text-2xl font-medium text-zinc-900">
                     Precision
@@ -182,6 +182,11 @@ export default function ManufacturingWebsite() {
                 <div className="rounded-2xl border border-zinc-300 bg-white/70 p-4">
                   <p className="text-2xl font-medium text-zinc-900">QC</p>
                   <p>Inspection-focused workflow</p>
+                </div>
+
+                <div className="rounded-2xl border border-zinc-300 bg-white/70 p-4">
+                  <p className="text-2xl font-medium text-zinc-900">ITAR</p>
+                  <p>ITAR Registered</p>
                 </div>
               </div>
             </motion.div>
@@ -282,8 +287,8 @@ export default function ManufacturingWebsite() {
                   </p>
 
                   <p>
-                    Inspection, traceability, and process control are treated as
-                    part of the manufacturing workflow.
+                    Inspection, traceability, process control, and ITAR compliance
+                    are treated as integral parts of our manufacturing workflow.
                   </p>
                 </div>
               </div>
@@ -361,7 +366,7 @@ export default function ManufacturingWebsite() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 pb-24 pt-20">
+        <section className="mx-auto max-w-7xl px-6 pb-8 pt-20">
           <div className="overflow-hidden rounded-[1.25rem] border border-zinc-300 bg-[#f5f5f3] text-zinc-950 shadow-none">
             <div className="grid gap-0 lg:grid-cols-[1fr_0.8fr]">
               <div className="p-8 md:p-12">
@@ -381,7 +386,7 @@ export default function ManufacturingWebsite() {
 
                 <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                   <a
-                    href="mailto:quotes@taylormanufacturingus.com"
+                    href="mailto:engineering@taylormanufacturingus.com"
                     className="inline-flex h-12 items-center justify-center rounded-2xl bg-zinc-950 px-7 text-base font-semibold text-white transition hover:bg-zinc-800"
                   >
                     Email RFQ <Mail className="ml-2 h-4 w-4" />
@@ -403,10 +408,10 @@ export default function ManufacturingWebsite() {
                   <div className="flex items-center gap-3">
                     <Mail className="h-5 w-5" />
                     <a
-                      href="mailto:quotes@taylormanufacturingus.com"
+                      href="mailto:engineering@taylormanufacturingus.com"
                       className="hover:text-zinc-950"
                     >
-                      quotes@taylormanufacturingus.com
+                      Engineering@TaylorManufacturingUS.com
                     </a>
                   </div>
 
@@ -434,11 +439,30 @@ export default function ManufacturingWebsite() {
           </div>
         </section>
       </main>
+        <div className="mx-auto max-w-7xl px-6 pb-8">
+           <img
+       src="/images/itar-registered.png"
+        alt="ITAR Registered"
+        className="w-36 h-auto"
+  />
+</div>
+      <footer className="border-t border-zinc-300 px-6 py-6 text-center text-sm text-zinc-400">
+  <div className="space-y-2">
+    <p>
+      © {new Date().getFullYear()} Taylor Manufacturing •
+      TaylorManufacturingUS.com
+    </p>
 
-      <footer className="border-t border-zinc-300 px-6 py-8 text-center text-sm text-zinc-400">
-        © {new Date().getFullYear()} Taylor Manufacturing •
-        TaylorManufacturingUS.com
-      </footer>
+    <a
+      href="/documents/Taylor-Manufacturing-PO-Terms-and-Conditions-Rev-10001.001.pdf"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-medium text-zinc-600 hover:text-zinc-900 underline"
+    >
+      Purchase Order Terms & Conditions
+    </a>
+  </div>
+</footer>
     </div>
   );
 }
